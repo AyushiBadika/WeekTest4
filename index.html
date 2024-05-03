@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/efcd399e0b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="modal-overlay hidden">
+      <div class="modal"></div>
+    </div>
+    <navbar>
+      <h1 class="logo">iPhone</h1>
+      <div class="tagLine">Designed to be loved.</div>
+    </navbar>
+    <div class="videoContainer">
+      <video
+        class="videoPlayer"
+        src="/Assets/large_2x.mp4"
+        autoplay
+        muted
+        loop
+      ></video>
+      <button class="play-pause">
+        <i class="fa-solid fa-pause" style="color: #00000072"></i>
+      </button>
+    </div>
+    <div class="exploreMore">
+      <div class="exploreMoreHead">
+        <h1 class="exploreMoreHeading">Explore the line-up.</h1>
+        <form action="">
+          <input type="text" placeholder="Explore" class="search" />
+          <button type="submit" class="searchBtn btn">Search</button>
+        </form>
+      </div>
+
+      <div class="products"></div>
+    </div>
+    <button class="showMoreBtn btn" style="display: none">Show More</button>
+    <script src="index.js"></script>
+  </body>
+</html>
